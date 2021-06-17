@@ -8,19 +8,36 @@
   <br>
   </h3>
 
-## The Project
-
+# The Project
+React Book Search was developed with React, using the `Axios` get function to make an external request with the Google Books API key.
+<br>
+<br>
+The app stores the input entered by the user in the search bar and generates the results obtained using the GoogleBooksSearch () functions,
+handleChange(), handleSubmit() and the `Hooks` (useState).
+<br>
+<br>
+The results displayed will never exceed twenty because they are filtered by "maxResults = 20"
+<br>
+<br>
+Once you have obtained the results, you can click on the "View" button to view more detailed information. With the use of `props`, the / details page will show what we are interested in.
+<br>
+<br>
+With react-router-dom it is possible to navigate between the pages of the App and view static content such as the Navbar and the Footer.
+<br>
+<br>
+To use the app remember to enter your `API`
 
 
 ## Built With
 
-* ```HTML```
 * ```CSS```
 * ```JAVASCRIPT```
-* ```.ENV```
+*  ```BOOTSTRAP```
+* ```REACT```
 
 
-# Getting Started with Create React App
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
