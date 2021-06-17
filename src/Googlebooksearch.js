@@ -7,7 +7,7 @@ import './Googlebooksearch.css';
 function GoogleBooksSearch() {
     const [book, setBook] = useState("");
     const [result, setResult] = useState([]);
-    const apiKey = ("AIzaSyBulBzxGzs91QaYGGLTESH1zrWyVtZU-9E")
+    const apiKey = ("API-KEY")
 
     function handleChange(event) {
         const book = event.target.value;
