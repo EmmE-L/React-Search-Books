@@ -1,5 +1,4 @@
 import React from 'react';
-import GoogleBooksSearch from './Googlebooksearch';
 import { Link } from 'react-router-dom';
 
 const BookDetails = (props) => {
