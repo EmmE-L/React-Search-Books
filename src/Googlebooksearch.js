@@ -26,7 +26,7 @@ function GoogleBooksSearch() {
 		setResult(searchResults)
 	}, [])
 
-	const apiKey = "AIzaSyBulBzxGzs91QaYGGLTESH1zrWyVtZU-9E"
+	const apiKey = "{ENTER YOUR SECRET HERE}"
 
 	// This implements a reduces rate of API calls
 	const debounce = (func, wait = 200, immediate = true) => {
